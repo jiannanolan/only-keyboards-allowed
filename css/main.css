@@ -38,6 +38,10 @@ html {
   z-index: 2;
 }
 
+a:focus {
+  outline: 3px solid #f00;
+}
+
 .masthead-title::after {
   content: attr(data-shadow);
   height: 100%;
